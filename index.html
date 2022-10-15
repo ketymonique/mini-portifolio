@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/rolagem.css">
+
+    <title>Mini Portfólio</title>
+</head>
+
+<body>
+    <main class="cartao">
+        <div class="minhas-informacoes">
+            <img src="./src/imagens/foto-perfil.jpeg" alt="foto de perfil" />
+            <h1 class="nome">Kethelyn Couto</h1>
+            <h2 class="cargo">Programadora Júnior</h2>
+        </div>
+
+        <div class="conteudo">
+            <ul class="abas">
+                <li class="aba selecionado" id="sobre-mim">
+                    <img src="src/imagens/sobre.gif" alt="ícone de sobre mim" />
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="src/imagens/coracao.gif" alt="ícone de redes sociais" />
+                </li>
+            </ul>
+
+            <div class="informacoes-abas">
+                <div class="informacao selecionado" id="informacao-sobre-mim">
+                    <h3 class="sub-titulo">Sobre</h3>
+
+                    <div class="descricao">
+                        <p>Oi! Meu nome é Kethelyn, seja bem-vindo(a) ao meu Portfólio.</p>
+                        <p>Desde muito nova sempre fui apaixonada por jogos e computadores,
+                            na verdade tudo que era técnologia me encantava e me deixava com vontade de aprender.
+                            Aos 16 anos iniciei um curso técnico em informatica para internet, onde tive meu primeiro
+                            contato
+                            com <span>HTML e CSS</span> e quando o curso iniciou <span>PHP e JavaScript</span> eu
+                            ingressei na faculdade
+                            de <span>Análise e Desenvolvimento de Sistemas</span>. Conclui o curso técnico e foquei na
+                            faculdade que foi bem complicada para mim.
+                            Me formei em Junho de 2020 e me afastei da área até Julho de 2021 quando consegui meu
+                            primeiro emprego de programadora Jr. em um
+                            comercio de auto peças. Nele comecei a implementar novos catalogos de produtos que
+                            vendiamos. Utilizei <span>Java e MySql</span> nesse projeto. Em seguida implementei duas
+                            API's de vendas fazendo uma rotina através de uma <span>Cron Linux</span> onde a mesma
+                            atualizava estoque e preço e também gerava romaneio e NFe das vendas.
+                            Criei um catalogo interno usando <span>Spring Boot e MVC</span> para os venderes terem
+                            ciencia de quais peças são utilizadas para cada modelo de automovel e durante todo esse
+                            periodo, prestei suporte ao usuario do ERP da empresa, resolvendo alguns Bug's e
+                            acrescentando melhorias e regras novas.</p>
+
+                        <p><span>Atualmente estou atrás de crescer profissionalmente e aprender cada vez mais!</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="informacao" id="informacao-minhas-redes">
+                    <h3 class="sub-titulo">Minhas Redes</h3>
+
+                    <ul class="redes-sociais">
+                        <li>
+                            <a href="" target="_blank" class="curriculo">Currículo</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/kethelyn-c-2a6812142/" target="_blank"
+                                class="linkedin">LinkedIn</a>
+                        </li>
+                        <li><a href="https://github.com/ketymonique" target="_blank" class="github">GitHub</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
